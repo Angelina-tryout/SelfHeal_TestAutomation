@@ -13,7 +13,7 @@ When('I enter valid credentials', async () => {
 });
 
 When('I click on the login button', async () => {
-  await browser.autoClick(locators.loginPage.loginButton);
+  await browser.click(locators.loginPage.loginButton);
   await browser.pause(5000);
 });
 
