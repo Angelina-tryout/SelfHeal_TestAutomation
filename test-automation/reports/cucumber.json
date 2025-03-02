@@ -1,0 +1,123 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;successful-login",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2383620800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open the login page",
+            "match": {
+              "location": "tests\\stepdefs\\login.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 716092699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "tests\\stepdefs\\login.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 975643199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on the login button",
+            "match": {
+              "location": "tests\\stepdefs\\login.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10418393599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see the landing page",
+            "match": {
+              "location": "tests\\stepdefs\\login.js:20"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5302220100,
+              "error_message": "Timed out while waiting for element <//h1> to be present for 5000 milliseconds. - expected \u001b[32m\"visible\"\u001b[39m but got: \u001b[31m\"not found\"\u001b[39m \u001b[90m(5298ms)\u001b[39m\n    at World.<anonymous> (C:\\Users\\angel\\OneDrive\\Desktop\\Project_SelfHealing\\SelfHealTestAutomation-main\\test-automation\\tests\\stepdefs\\login.js:21:17)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 357679799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1426699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20488199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Login-Scenario-1",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [
+      {
+        "name": "@Login",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\Login.feature"
+  }
+]
