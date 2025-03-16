@@ -1,0 +1,356 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "parabank-application;check-login-scenario",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Check Login Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1615213700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open parabank login page",
+            "match": {
+              "location": "tests\\stepdefs\\parabank.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4135711400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter valid credentials for parabank",
+            "match": {
+              "location": "tests\\stepdefs\\parabank.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346676399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on the login button for parabank",
+            "match": {
+              "location": "tests\\stepdefs\\parabank.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5941954600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 262491000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 218100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9709699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ParabankApplication",
+            "line": 1
+          },
+          {
+            "name": "@ParabankApplication-Scenario-1",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "parabank-application;check-link-text-scenario",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Check Link Text Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 917252300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I open parabank login page",
+            "match": {
+              "location": "tests\\stepdefs\\parabank.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3633593099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click register parabank login page",
+            "match": {
+              "location": "tests\\stepdefs\\parabank.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5572350800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 115385600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7543200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ParabankApplication",
+            "line": 1
+          },
+          {
+            "name": "@ParabankApplication-Scenario-2",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "parabank-application;check-image-scenario",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Check Image Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 913360699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I open parabank login page",
+            "match": {
+              "location": "tests\\stepdefs\\parabank.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2872280599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I check paranbank image is present",
+            "match": {
+              "location": "tests\\stepdefs\\parabank.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5607372300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 131210200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24306899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ParabankApplication",
+            "line": 1
+          },
+          {
+            "name": "@ParabankApplication-Scenario-3",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "parabank-application;check-table-scenario",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Check Table Scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 915625199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open parabank login page",
+            "match": {
+              "location": "tests\\stepdefs\\parabank.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2508045600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I click read more link",
+            "match": {
+              "location": "tests\\stepdefs\\parabank.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5783893700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I check data in table",
+            "match": {
+              "location": "tests\\stepdefs\\parabank.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8272212100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 110650199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9506999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ParabankApplication",
+            "line": 1
+          },
+          {
+            "name": "@ParabankApplication-Scenario-4",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "parabank-application",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Parabank Application",
+    "tags": [
+      {
+        "name": "@ParabankApplication",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\parabank.feature"
+  }
+]
