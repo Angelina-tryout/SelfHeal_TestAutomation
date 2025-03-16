@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'PrashantMacJenkinsNode' }
+  agent { label 'Label' }
   
   parameters {
     string(name: 'NIGHTWATCH_CONFIG', defaultValue: 'config/nightwatch.conf.js', description: 'Path to Nightwatch configuration file')
@@ -8,12 +8,12 @@ pipeline {
   }
   
   environment {
-    REPO_URL = 'https://github.com/SDETQATestAutomation/SelfHealTestAutomation.git'
+    REPO_URL = 'https://github.com/Angelina-tryout/SelfHeal_TestAutomation.git'
     BRANCH = 'Main'
     BACKEND_DIR = 'backend'
     FRONTEND_DIR = 'frontend'
     TEST_DIR = 'test-automation'
-    RECIPIENT_EMAIL = 'prashant.ranjan.qa@gmail.com'
+    RECIPIENT_EMAIL = 'angel4talk@gmail.com'
   }
   
   tools {
